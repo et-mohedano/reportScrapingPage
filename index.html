@@ -9,6 +9,91 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar_background">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Binahria</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-0 ml-lg-5">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <img src="assets\images\navbar_icon.png" height="50" width="75" class="d-none d-lg-block">
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container">
+          <h1 class="title_global margin_global" >Análisis de Percepción Ciudadana en redes</h1>
+          <div class="margin_global resumen_container rounded-4">
+            <h2 class="subtitle_global">Resumen</h2>
+            <p class="paragraph_global">El presente conjunto de reportes tiene la finalidad de apreciar la opinión
+               ciudadana acerca de las ideas y comentarios expuestos dentro del conjunto de publicaciones pertenecientes
+                a la red social <b>Facebook</b>, todas ellas emitidas por usuarios registrados de la misma plataforma, para la
+                 transición de gubernatura en Hidalgo del año 2022.<br>Las métricas empleadas se basan en 3 indicadores
+                 claves; la prueba Flesch Kincaid, la frecuencia de palabras clave y el análisis de sentimientos,
+                 explicados a continuación.
+              </p>
+          </div>
+          <h2 class="subtitle_global margin_global text-center">Parametros</h2>
+            <div class="margin_global row">
+              <div class="col-sm-12 col-lg-4">
+                <h2 class="subtitle_global">Flesch Kincaid</h2>
+                <p class="paragraph_global">Las oraciones dentro de los comentarios analizados fueron sometidos a
+                   esta prueba de legibilidad o prueba nivel de facilidad de lectura de Flesch, que  busca conocer la
+                    facilidad de comprensión de un documento. Dicha prueba otorga al texto un valor dentro de una escala
+                     de puntos para determinar la escolaridad o estudios necesarios para comprender el texto escrito.</p>
+              </div>
+              <div class="col-sm-12 col-lg-4">
+                <h2 class="subtitle_global">Frecuencia de Palabras Clave</h2>
+                <p class="paragraph_global">Las oraciones dentro de los comentarios analizados fueron tokenizadas para
+                   identificar los sustantivos principales de cada cadena y posteriormente extraer la cadena que los
+                    contextualiza.</p>
+              </div>
+              <div class="col-sm-12 col-lg-4">
+                <h2 class="subtitle_global">Análisis de Sentimientos</h2>
+                <p class="paragraph_global">Para identificar el sentimiento principal que refleja cada oración dentro
+                   de los comentarios se utilizó un modelo de red neuronal basado en transformers con conjuntos de
+                    datos pre-entrenados para el idioma español, que clasifican el sentimiento de una cadena de texto
+                     según su similitud con expresiones auto-aprendidas e indica su polaridad; positiva, negativa o
+                      neutral.</p>
+              </div>
+            </div>
+            <div class="margin_global">
+              <div class="d-flex flex-row align-items-center">
+                <div class="pe-3">
+                  <h2 class="subtitle_global text-center"><span>Búsqueda por Secretaria:</span></h2>
+                </div>
+                <div class="w-25">
+                  <select name="" id="" class="form-select" aria-label="Opción 1">
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="margin_global">
+              <iframe src="assets\pdf\Julio Menchaca_11_08_2022__18_41_18.pdf" class="w-100" height="1200"></iframe>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
