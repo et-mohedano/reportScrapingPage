@@ -38,35 +38,46 @@
     <main>
         <div class="container">
           <h1 class="title_global margin_global" >Análisis de Percepción Ciudadana en redes</h1>
-          <div class="margin_global">
+          <div class="margin_global resumen_container rounded-4">
             <h2 class="subtitle_global">Resumen</h2>
-            <p class="paragraph_global">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-               ut labore et dolore magna aliqua.</p>
+            <p class="paragraph_global">El presente conjunto de reportes tiene la finalidad de apreciar la opinión
+               ciudadana acerca de las ideas y comentarios expuestos dentro del conjunto de publicaciones pertenecientes
+                a la red social <b>Facebook</b>, todas ellas emitidas por usuarios registrados de la misma plataforma, para la
+                 transición de gubernatura en Hidalgo del año 2022.<br>Las métricas empleadas se basan en 3 indicadores
+                 claves; la prueba Flesch Kincaid, la frecuencia de palabras clave y el análisis de sentimientos,
+                 explicados a continuación.
+              </p>
           </div>
           <h2 class="subtitle_global margin_global text-center">Parametros</h2>
             <div class="margin_global row">
               <div class="col-sm-12 col-lg-4">
-                <h2 class="subtitle_global">Interpretación</h2>
-                <p class="paragraph_global">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                   incididunt ut labore et dolore magna aliqua.</p>
+                <h2 class="subtitle_global">Flesch Kincaid</h2>
+                <p class="paragraph_global">Las oraciones dentro de los comentarios analizados fueron sometidos a
+                   esta prueba de legibilidad o prueba nivel de facilidad de lectura de Flesch, que  busca conocer la
+                    facilidad de comprensión de un documento. Dicha prueba otorga al texto un valor dentro de una escala
+                     de puntos para determinar la escolaridad o estudios necesarios para comprender el texto escrito.</p>
               </div>
               <div class="col-sm-12 col-lg-4">
                 <h2 class="subtitle_global">Frecuencia de Palabras Clave</h2>
-                <p class="paragraph_global">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                   incididunt ut labore et dolore magna aliqua.</p>
+                <p class="paragraph_global">Las oraciones dentro de los comentarios analizados fueron tokenizadas para
+                   identificar los sustantivos principales de cada cadena y posteriormente extraer la cadena que los
+                    contextualiza.</p>
               </div>
               <div class="col-sm-12 col-lg-4">
                 <h2 class="subtitle_global">Análisis de Sentimientos</h2>
-                <p class="paragraph_global">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                   incididunt ut labore et dolore magna aliqua.</p>
+                <p class="paragraph_global">Para identificar el sentimiento principal que refleja cada oración dentro
+                   de los comentarios se utilizó un modelo de red neuronal basado en transformers con conjuntos de
+                    datos pre-entrenados para el idioma español, que clasifican el sentimiento de una cadena de texto
+                     según su similitud con expresiones auto-aprendidas e indica su polaridad; positiva, negativa o
+                      neutral.</p>
               </div>
             </div>
             <div class="margin_global">
-              <div class="row">
-                <div class="col-sm-12 col-lg-6">
-                  <h2 class="subtitle_global text-center">Búsqueda por Secretaria:</h2>
+              <div class="d-flex flex-row align-items-center">
+                <div class="pe-3">
+                  <h2 class="subtitle_global text-center"><span>Búsqueda por Secretaria:</span></h2>
                 </div>
-                <div class="col-sm-12 col-lg-6">
+                <div class="w-25">
                   <select name="" id="" class="form-select" aria-label="Opción 1">
                     <option value="1">One</option>
                     <option value="2">Two</option>
