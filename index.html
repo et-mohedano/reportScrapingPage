@@ -82,21 +82,20 @@
         <div class="margin-container-y d-block d-md-flex align-items-center">
           <h3 class="padding-container style-subtitle"><span style="font-size: 22px;">Búsqueda por Secretaria:</span></h3>
           <select id="search_by_secretary" class="form-select padding-container w-50 ms-3" aria-label="-- Selecciona una Secretaria --">
+            <option value="NA">-- Selecciona una Secretaria --</option>
           </select>
         </div>
         
-        <!--
-
-          ### Only test for select event ###
-
-        <p class="margin-container-y padding-container">
-          Opción seleccionada: 
-          <b><span id="change_doc">0</span></b>
-        </p>
-         -->
+        
+        <div class="margin-container-y d-block d-md-flex align-items-center">
+            <h3 class="padding-container style-subtitle"><span style="font-size: 22px;">Presentar reporte:</span></h3>
+            <select id="report_options" class="form-select padding-container w-50 ms-3" disabled aria-label="-- Selecciona un reporte --">
+              <option value="NA">-- Selecciona un reporte --</option>
+            </select> 
+        </div>
 
         <div class="margin-container-y">
-          <iframe class="position-absolute h-100 mb-5 w-75" src="./assets/pdf/Julio Menchaca_11_08_2022__18_41_18.pdf"></iframe>
+          <iframe class="position-absolute h-100 mb-5 w-75" id="show_pdf"></iframe>
         </div>
 
       </div>
